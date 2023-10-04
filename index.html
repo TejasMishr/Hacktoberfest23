@@ -15,8 +15,13 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="nav.css">
 
-</head>
 
+</head>
+<style>
+    body{
+    background-color: #000;
+}
+</style>
 <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">
@@ -62,15 +67,21 @@
         </div>
     </div>
 
+
+
+    <div class="main"></div>
+
+
+
     <section class="section">
         <div class="container">
             <div class="code-img d-flex">
-                <img id="codeImage" src="./assets/code.jpg ">
+                <img id="codeImage" src="./assets/code.png ">
             </div>
             <div class="main-logo animated">
                 <!-- <h1>Welcome to CodeX</h1> -->
                 <!-- type text animation -->
-                <h1>Welcome to <span class="auto-type"></span> </h1>
+                <h1 style="  color: wheat;">Welcome to <span class="auto-type"></span> </h1>
 
                 <button class="explore-btn" onclick="scrollToExplore()">
 
@@ -123,8 +134,8 @@
     <!-- team member card start here -->
 
     <div class="container-2" id="contributors">
-        <div class="main-logo" id="contri">
-            Contributors for <span class="hack">Hacktoberfest 2023</span>
+        <div class="main-logo" id="contri" style="color: wheat;">
+            Contributors for <span class="hack" style="color: #980f0f;">Hacktoberfest 2023</span>
         </div>
         <hr>
 
@@ -147,7 +158,7 @@
 
 
     </h1>
-    <h1 class="form">Contact Form</h1>
+    <h1 class="form" style="color: wheat;">Contact Form</h1>
     <section class="contact-wrap">
         <form action="" class="contact-form">
             <div class="col-sm-12">
@@ -317,7 +328,7 @@
 
     <script>
         var img = ["./assets/code1.gif", "./assets/code2.jpeg", "./assets/code3.jpeg", "./assets/code4.jpeg",
-            "./assets/code.jpg"
+            "./assets/code.png"
         ];
         var idx = 0;
 
