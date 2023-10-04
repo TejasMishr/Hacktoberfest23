@@ -343,7 +343,11 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5%;
+    margin: 0px;
+    gap: 28px;
+    position: relative;
+    top: -12px;
+
 }
 
 .media1 {
