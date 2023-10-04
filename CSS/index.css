@@ -277,7 +277,7 @@ li{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
     display: flex;
-    background-color: aliceblue;
+    background-color: #947f7f;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -401,7 +401,7 @@ li{
 
 /* Efek Hover pada Label */
 .card:hover .label {
-    color: #007BFF;
+    color: #e8eaed;
     /* Ganti warna label saat dihover */
 }
 
@@ -638,7 +638,7 @@ a{
 }
 
 h1 {
-  color: wheat;
+
   /* color: #ff7c62; */
   padding: 40px;
   margin: 0 0 50px;
@@ -758,3 +758,15 @@ h1 small {
      transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
     }
    }
+
+
+
+
+   .github-icon {
+    color: #333; /* Set default color */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.github-icon:hover {
+    color: #fff; /* Change color to white on hover */
+}
