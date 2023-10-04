@@ -10,7 +10,7 @@ body {
 .nav {
     height: 80px;
     width: 100%;
-    background-color: #1177ca;
+    background-color: #000000;
     position: relative;
     align-content: center;
 }
@@ -60,7 +60,7 @@ body {
 
 .nav>.nav-links>ul li {
     display: inline-block;
-    background-color: #1177ca;
+    background-color: #010203;
 
 
 }
